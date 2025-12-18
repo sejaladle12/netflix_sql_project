@@ -2,10 +2,10 @@
 
 ![Netflix logo](https://github.com/sejaladle12/netflix_sql_project/blob/main/logo.png)
 
-## Overview
+## 📌 Overview
 This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset. The following README provides a detailed account of the project's objectives, business problems, solutions, findings, and conclusions.
 
-## Objective
+## 🎯 Objective
 - Understand content distribution between Movies and TV Shows
 - Identify popular ratings, countries, and actors on Netflix
 - Analyze year-wise and country-wise content growth, especially for India
@@ -13,7 +13,14 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 - Categorize content using keyword-based analysis (e.g., violence, romance)
 - Strengthen SQL skills using real-world queries (CTEs, joins, string functions, window functions)
 
-## Database Schema
+## 🗂️ Dataset Information
+- Dataset Name: Netflix Movies and TV Shows
+- Format: CSV
+- Total Records: ~8,800
+- Source: Kaggle
+- Columns: show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, description
+
+## 🏗️ Database Schema
 ```sql
 create table netflix
 (
@@ -32,8 +39,13 @@ description varchar(250)
 );
 ```
 
-## Solutions
+## 🛠️ Tools & Technologies
+- Database: PostgreSQL / MySQL
+- Query Language: SQL
+- Tools: pgAdmin, GitHub
+- Concepts Used:CTEs,Window Functions,String Functions,Aggregations,Date Functions
 
+## 🔍 SQL Solutions
 ### 1.Count the Number of Movies vs TV Shows
 ```sql
 SELECT type, COUNT(*) FROM netflix GROUP BY 1;
@@ -136,8 +148,13 @@ END AS content_category
 FROM netflix;
 ```
 
-## Conclusion
+## ✅ Conclusion
 This project analyzes Netflix’s movies and TV shows dataset using SQL to uncover insights related to content distribution, ratings, countries, actors, and release trends. The analysis demonstrates strong SQL skills, including data filtering, aggregation, CTEs, and string manipulation, and provides meaningful, data-driven insights from a real-world dataset.
+
+## 👩‍💻 Author
+Sejal Adle
+🔗 GitHub:https://github.com/sejaladle12
+
 
 
 
