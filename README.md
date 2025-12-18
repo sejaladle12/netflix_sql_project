@@ -148,6 +148,16 @@ END AS content_category
 FROM netflix;
 ```
 
+## 🚀 How to Run
+- Import the Netflix dataset into PostgreSQL
+- Create the netflix table
+- Run the queries from the Solutions section
+
+## 📚 Learning Outcome
+- Improved SQL querying skills
+- Hands-on experience with GROUP BY, CTEs, window functions
+- Real-world data analysis using PostgreSQL
+
 ## ✅ Conclusion
 This project analyzes Netflix’s movies and TV shows dataset using SQL to uncover insights related to content distribution, ratings, countries, actors, and release trends. The analysis demonstrates strong SQL skills, including data filtering, aggregation, CTEs, and string manipulation, and provides meaningful, data-driven insights from a real-world dataset.
 
